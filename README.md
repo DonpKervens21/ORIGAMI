@@ -109,16 +109,6 @@ INVALID_USER=invalid_user
 INVALID_PASS=invalid_password
 ```
 
-**Example:**
-
-```env
-BASE_URL=https://example.com/login
-USER_NAME=testuser
-PASSWORD=testpass123
-INVALID_USER=wronguser
-INVALID_PASS=wrongpass
-```
-
  ** Important:** Never commit the `.env` file to the repository. Make sure it's in your `.gitignore`
  
  (Due to this being a test, the .env file will be uploaded, but it is not recommended.)
