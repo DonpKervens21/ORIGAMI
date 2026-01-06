@@ -41,12 +41,6 @@ git clone <repository-url>
 cd Origami
 ```
 
-If you already have the project downloaded, navigate to the project folder:
-
-```bash
-cd Origami
-```
-
 ### Step 2: Install Dependencies
 
 Run the following command to install all necessary dependencies:
@@ -251,19 +245,6 @@ If browsers were not installed correctly:
 ```bash
 npx playwright install --force
 ```
-
-### Error: Environment variables not found
-
-Make sure to:
-1. Create the `.env` file in the project root
-2. Add all necessary variables
-3. Verify there are no spaces before or after the `=` sign
-
-## Additional Notes
-
-- The project is configured to run tests in parallel by default
-- HTML reports are automatically generated after each run
-- Screenshots and videos are automatically saved when a test fails
 
 ## Author
 
