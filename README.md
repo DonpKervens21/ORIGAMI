@@ -26,7 +26,7 @@ Before installing and running this project, make sure you have installed:
 Open your terminal and run:
 
 ```bash
-node --version
+node --version "^25.0.3"
 npm --version
 ```
 
