@@ -172,8 +172,7 @@ This command will open the generated HTML report in your default browser.
 ```
 Origami/
 │
-├── data/                  # Test data files
-│   └── data.json
+│
 │
 ├── pages/                 # Page Object Models (POM)
 │   ├── basePage.js       # Base class with common methods
